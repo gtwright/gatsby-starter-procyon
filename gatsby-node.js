@@ -13,25 +13,21 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
     graphql(`
       {
-        allPost {
-          edges {
-            node {
-              id
-              title
-              slug
-              coverImage {
-                handle
-              }
-              content
-            }
-          }
-        }
-      }
+  posts {
+    id
+    title
+    slug
+    featuredImage {
+      handle
+    }
+    body
+  }
+}
     `).then(result => {
       if (result.errors) {
         console.log(result.errors);
       }
-      result.data.allPost.edges.map(({ node }) => {
+      result.data.posts.map(({ node }) => {
         createPage({
           path: `/post/${node.slug}`,
           component: slash(postTemplate),
