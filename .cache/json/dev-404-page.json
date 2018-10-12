@@ -1,1 +1,1 @@
-{"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":10,"edges":[{"node":{"path":"/post/1"}},{"node":{"path":"/post/post2"}},{"node":{"path":"/404/"}},{"node":{"path":"/about/"}},{"node":{"path":"/admin/"}},{"node":{"path":"/blog/"}},{"node":{"path":"/contact/"}},{"node":{"path":"/"}},{"node":{"path":"/services/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}

@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "92fd5c9e9bbbda7cb4ec6fc31475902e",
+        "contentDigest": "6a5a4ee2025844adf838a1b1108a1417",
         "owner": "internal-data-bridge"
       }
     },
@@ -323,7 +323,7 @@
         "plugins": [],
         "endpoint": "https://api-useast.graphcms.com/v1/cjn3zo3m22wzm01fuewlxo0uu/master",
         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJzaW9uIjoxLCJ0b2tlbklkIjoiZmQxYzJjNTctNGIyNy00NTdjLWJkMGQtODZmZWIxMmQ0MjgxIn0.tvQvRpmTMa1vymXeW6EL3SQLYX9iq89ModLIzz1hpjg",
-        "query": "{\n          posts {\n            id\n            slug\n            title\n            content\n            dateAndTime\n            coverImage {\n              handle\n            }\n          }\n          authors {\n            id\n            name\n            avatar {\n              handle\n            }\n          }\n        }"
+        "query": "{\n          posts {\n            id\n            slug\n            title\n            content\n            dateAndTime\n            coverImage {\n              handle\n            }\n          }\n          authors {\n            id\n            name\n            bibliography\n            avatar {\n              handle\n            }\n          }\n        }"
       },
       "nodeAPIs": [
         "sourceNodes"
@@ -409,7 +409,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "fdaebef20ede413a25b55efa924a1a86",
+        "contentDigest": "c7857e945054b1b63654e20a5d8aadc1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -703,7 +703,7 @@
       "resolve": "/Users/graham/GitHub/gatsby-starter-procyon",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "57068dc677e00db2231f19044772b293",
+      "version": "f4f72a80bc581671671d8f741660daf6",
       "pluginOptions": {
         "plugins": []
       },
@@ -874,7 +874,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9a6154b316bd32902d4844f2aad207cf",
+        "contentDigest": "7762bb9e92278cb6a813c1ddef986115",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -889,12 +889,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-12T01:23:07.528Z",
+      "buildTime": "2018-10-12T01:27:56.650Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ef71c8a22d326959364a400bc4dfd3a6",
+        "contentDigest": "f4d66eeaa660a02ab18a2cbee3fa0742",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -936,26 +936,28 @@
     "cjn401mye9zub0933ri77nua7": {
       "id": "cjn401mye9zub0933ri77nua7",
       "name": "Graham",
+      "bibliography": null,
       "avatar": null,
       "parent": "GraphCMS_authors",
       "children": [],
       "internal": {
         "type": "author",
-        "content": "{\"id\":\"cjn401mye9zub0933ri77nua7\",\"name\":\"Graham\",\"avatar\":null}",
-        "contentDigest": "3a19009b8c0faed3c7538881dab77569",
+        "content": "{\"id\":\"cjn401mye9zub0933ri77nua7\",\"name\":\"Graham\",\"bibliography\":null,\"avatar\":null}",
+        "contentDigest": "d93b7bbe6256d001af19481a3082f139",
         "owner": "gatsby-source-graphcms"
       }
     },
     "cjn40635ma00n093361o4d7cn": {
       "id": "cjn40635ma00n093361o4d7cn",
       "name": "Me",
+      "bibliography": null,
       "avatar": null,
       "parent": "GraphCMS_authors",
       "children": [],
       "internal": {
         "type": "author",
-        "content": "{\"id\":\"cjn40635ma00n093361o4d7cn\",\"name\":\"Me\",\"avatar\":null}",
-        "contentDigest": "867d0a46e820c9fb2a762c765468c831",
+        "content": "{\"id\":\"cjn40635ma00n093361o4d7cn\",\"name\":\"Me\",\"bibliography\":null,\"avatar\":null}",
+        "contentDigest": "e5d9d78164e87f6b8a8f8f661854410a",
         "owner": "gatsby-source-graphcms"
       }
     },
@@ -977,7 +979,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "feecc426982c0a1c2d58b7ad8cffd35b",
+        "contentDigest": "51cbff94ad70395db5944db8bb69de72",
         "owner": "internal-data-bridge"
       }
     },
@@ -999,7 +1001,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0a868f0a295e7a359e527ea05a492fcf",
+        "contentDigest": "3e161fa64d4f0032f6fcc7acb8b628e4",
         "owner": "internal-data-bridge"
       }
     },
@@ -1019,7 +1021,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a1761118d1b6de861160686bc9d24231",
+        "contentDigest": "44388dc9cbb4af62af10bb5890b518fe",
         "owner": "internal-data-bridge"
       }
     },
@@ -1039,7 +1041,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "692cfd2302f424872cb8151625b6829d",
+        "contentDigest": "99465acbcddcda28ca7a0ee6ac429172",
         "owner": "internal-data-bridge"
       }
     },
@@ -1059,7 +1061,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a1a09bd82fa3f786fd09e480222b8cbb",
+        "contentDigest": "8eb90ca1f338b182dee5c0f2e7513d05",
         "owner": "internal-data-bridge"
       }
     },
@@ -1079,7 +1081,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dc1e4680a56350eb8c08d478d5788813",
+        "contentDigest": "0cc18d7cb01c2dc288813ae31a01c0fc",
         "owner": "internal-data-bridge"
       }
     },
@@ -1099,7 +1101,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3a22fdaf94db49c7c5832df164116f9c",
+        "contentDigest": "513d5848287d8288e596d261f12d3b42",
         "owner": "internal-data-bridge"
       }
     },
@@ -1119,7 +1121,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6214301ca8647a493a3aca41615cf06e",
+        "contentDigest": "ad46790d9818a49f4c2f2eebc2f249db",
         "owner": "internal-data-bridge"
       }
     },
@@ -1139,7 +1141,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1dfaf76b25cd8c3677736e98e27e0e79",
+        "contentDigest": "24151553d9e5faeddcbd77f558963739",
         "owner": "internal-data-bridge"
       }
     },
@@ -1159,17 +1161,34 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9568571b6a113a40929c516de5fbf358",
+        "contentDigest": "ce5ac90ab8b595c9ed5c5eaa934c4ad5",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "cf0ccb7d26770304e621dd44e965547f"
+    "PLUGINS_HASH": "ca438622cd76f718287b5b88753c84a9"
   },
   "componentDataDependencies": {
-    "nodes": {},
-    "connections": {}
+    "nodes": {
+      "cjn407k8za02u0933k0adccxy": [
+        "/post/1"
+      ],
+      "cjn4wycysb7qz0933ypthl8lk": [
+        "/post/post2"
+      ],
+      "Site": [
+        "LAYOUT___index"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
+      "post": [
+        "/blog/"
+      ]
+    }
   }
 }
