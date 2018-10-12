@@ -30,10 +30,11 @@ const ArticleTitle = styled('div')(theme => ({
 }));
 
 const UPDATE_POST = gql`
-  mutation($id: ID!, $content: String!) {
-    updatePost(id: $id, content: $content) {
+  mutation(data:{$slug: String!, $content: String!}) {
+    updatePost(slug: $slug, content: $content) {
       id
       content
+      title
     }
   }
 `;
@@ -78,7 +79,7 @@ export default Post;
 
 export const query = graphql`
   query GetPost($slug: String!) {
-    post(slug: { eq: $slug }) {
+    post(where: { slug: $slug }) {
       id
       slug
       title

@@ -22,9 +22,9 @@ module.exports = {
             id
             slug
             title
-            body
+            content
             dateAndTime
-            featuredImage {
+            coverImage {
               handle
             }
           }

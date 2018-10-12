@@ -1,0 +1,1175 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bd02161824d99e20a413d391099a70ad",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "de341b819ec21d7774087ab3a6bf71d0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "846844ca3fea9dd13b25d15340cb7552",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e81f4363a3f04c52ceaca846e2dd332a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6c10d6c9a4443c98d8efa12b9e49213f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8317adfff4e6e45773c798a4a48980d7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6bf77ace779754e32544e09bf6f6204a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.10",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.10",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d82447f7e95c95ea4a972d4fb143d635",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-graphcms": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-source-graphcms",
+      "id": "Plugin gatsby-source-graphcms",
+      "name": "gatsby-source-graphcms",
+      "version": "1.0.0-alpha.1",
+      "pluginOptions": {
+        "plugins": [],
+        "endpoint": "https://api-useast.graphcms.com/v1/cjn3zo3m22wzm01fuewlxo0uu/master",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXJzaW9uIjoxLCJ0b2tlbklkIjoiZmQxYzJjNTctNGIyNy00NTdjLWJkMGQtODZmZWIxMmQ0MjgxIn0.tvQvRpmTMa1vymXeW6EL3SQLYX9iq89ModLIzz1hpjg",
+        "query": "{\n          posts {\n            id\n            slug\n            title\n            content\n            dateAndTime\n            coverImage {\n              handle\n            }\n          }\n          authors {\n            id\n            name\n            avatar {\n              handle\n            }\n          }\n        }"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-source-graphcms",
+      "packageJson": {
+        "name": "gatsby-source-graphcms",
+        "description": "Gatsby source plugin for building websites using the GraphCMS as a data source.",
+        "version": "1.0.0-alpha.1",
+        "main": "index.js",
+        "keywords": [
+          "data",
+          "gatsby",
+          "gatsby-plugin",
+          "graphcms",
+          "graphql",
+          "source"
+        ],
+        "author": "Angel Piscola <angelpiscola@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "graphql-request",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "pluralize",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "ramda",
+            "version": "^0.25.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "8.2.2"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-runtime",
+            "version": "6.23.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "1.6.1"
+          },
+          {
+            "name": "cross-env",
+            "version": "5.1.3"
+          },
+          {
+            "name": "jest",
+            "version": "22.4.2"
+          },
+          {
+            "name": "jest-cli",
+            "version": "22.4.2"
+          },
+          {
+            "name": "xo",
+            "version": "0.20.3"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fdaebef20ede413a25b55efa924a1a86",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Gatsby Starter Procyon",
+        "short_name": "Procyon",
+        "start_url": "/",
+        "background_color": "#fafafa",
+        "theme_color": "#212121",
+        "display": "minimal-ui",
+        "icon": "src/images/icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.json to make sites progressive web apps",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "manifest.json",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1e275b9bfb40bc61fc65c92f6c00685b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.15",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.15",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "94a4e2252d33212337bfaea05791b34b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bb49c0520be75e953b640abbfb4d600f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-netlify": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-netlify",
+      "id": "Plugin gatsby-plugin-netlify",
+      "name": "gatsby-plugin-netlify",
+      "version": "1.0.19",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "1.0.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ac1b46000812f78f28a199f226a1de1c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/graham/GitHub/gatsby-starter-procyon",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "57068dc677e00db2231f19044772b293",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/graham/GitHub/gatsby-starter-procyon",
+      "packageJson": {
+        "name": "gatsby-starter-procyon",
+        "description": "An opinionated Gatsby starter designed for trash-eating pandas.",
+        "version": "0.0.21",
+        "keywords": [
+          "gatsby",
+          "graphcms",
+          "starter",
+          "boilerplate",
+          "draftjs",
+          "procyon",
+          "material-ui",
+          "apollo"
+        ],
+        "author": "Daniel Mahon <daniel@mahonstudios.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "apollo-cache-inmemory",
+            "version": "1.1.12"
+          },
+          {
+            "name": "apollo-client",
+            "version": "2.2.8"
+          },
+          {
+            "name": "apollo-link-context",
+            "version": "1.0.7"
+          },
+          {
+            "name": "apollo-link-http",
+            "version": "1.5.3"
+          },
+          {
+            "name": "apollo-link-state",
+            "version": "0.4.1"
+          },
+          {
+            "name": "draft-convert",
+            "version": "2.0.1"
+          },
+          {
+            "name": "draftjs-md-converter",
+            "version": "0.1.7"
+          },
+          {
+            "name": "gatsby",
+            "version": "1.9.246"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "1.6.40"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "1.0.19"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "1.0.15"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "2.0.10"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "1.0.11"
+          },
+          {
+            "name": "gatsby-source-graphcms",
+            "version": "1.0.0-alpha.1"
+          },
+          {
+            "name": "graphql-tag",
+            "version": "2.8.0"
+          },
+          {
+            "name": "immutable",
+            "version": "3.8.2"
+          },
+          {
+            "name": "markdown-draft-js",
+            "version": "0.6.2"
+          },
+          {
+            "name": "material-ui",
+            "version": "1.0.0-beta.40"
+          },
+          {
+            "name": "mdi-material-ui",
+            "version": "3.2.0"
+          },
+          {
+            "name": "medium-draft",
+            "version": "0.6.0-beta1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "1.4.11"
+          },
+          {
+            "name": "react-apollo",
+            "version": "2.1.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "5.2.0"
+          },
+          {
+            "name": "react-markdown",
+            "version": "3.3.0"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-open-sans",
+            "version": "0.0.54"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@danielmahon/versionist-plugins",
+            "version": "1.3.0"
+          },
+          {
+            "name": "prettier",
+            "version": "1.11.1"
+          },
+          {
+            "name": "stylelint",
+            "version": "9.2.0"
+          },
+          {
+            "name": "stylelint-config-standard",
+            "version": "18.2.0"
+          },
+          {
+            "name": "stylelint-processor-glamorous",
+            "version": "0.3.0"
+          },
+          {
+            "name": "versionist",
+            "version": "github:danielmahon/versionist"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9a6154b316bd32902d4844f2aad207cf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter Procyon",
+        "shortName": "Procyon",
+        "description": "An opinionated Gatsby starter designed for trash-eating pandas."
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-12T00:38:25.499Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bc38a842c41d08c8eb2ca2fed113d923",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cjn407k8za02u0933k0adccxy": {
+      "id": "cjn407k8za02u0933k0adccxy",
+      "slug": "1",
+      "title": "HEre's a pOst",
+      "content": "hi",
+      "dateAndTime": null,
+      "coverImage": {
+        "handle": "XpDhsZIQPWt0vHTexfHh"
+      },
+      "parent": "GraphCMS_posts",
+      "children": [],
+      "internal": {
+        "type": "post",
+        "content": "{\"id\":\"cjn407k8za02u0933k0adccxy\",\"slug\":\"1\",\"title\":\"HEre's a pOst\",\"content\":\"hi\",\"dateAndTime\":null,\"coverImage\":{\"handle\":\"XpDhsZIQPWt0vHTexfHh\"}}",
+        "contentDigest": "8fda155ce9444d4821dce813d88b2274",
+        "owner": "gatsby-source-graphcms"
+      }
+    },
+    "cjn4wycysb7qz0933ypthl8lk": {
+      "id": "cjn4wycysb7qz0933ypthl8lk",
+      "slug": "post2",
+      "title": "Post 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam libero, dignissim et enim id, pharetra convallis eros. Curabitur odio dolor, vestibulum in maximus at, iaculis ac urna. Proin nec purus sed leo auctor dictum eget quis libero. Quisque a nunc vitae augue tempor mollis. Donec tortor ex, rutrum eget pharetra euismod, maximus sit amet augue. Aenean tempus, ligula quis pretium tempor, tellus nibh tincidunt urna, accumsan mollis lacus turpis in turpis. Curabitur tincidunt sapien ac enim luctus commodo. Nullam tempor lectus non neque facilisis gravida. Sed vitae urna et lectus pretium ullamcorper.",
+      "dateAndTime": null,
+      "coverImage": null,
+      "parent": "GraphCMS_posts",
+      "children": [],
+      "internal": {
+        "type": "post",
+        "content": "{\"id\":\"cjn4wycysb7qz0933ypthl8lk\",\"slug\":\"post2\",\"title\":\"Post 2\",\"content\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla diam libero, dignissim et enim id, pharetra convallis eros. Curabitur odio dolor, vestibulum in maximus at, iaculis ac urna. Proin nec purus sed leo auctor dictum eget quis libero. Quisque a nunc vitae augue tempor mollis. Donec tortor ex, rutrum eget pharetra euismod, maximus sit amet augue. Aenean tempus, ligula quis pretium tempor, tellus nibh tincidunt urna, accumsan mollis lacus turpis in turpis. Curabitur tincidunt sapien ac enim luctus commodo. Nullam tempor lectus non neque facilisis gravida. Sed vitae urna et lectus pretium ullamcorper.\",\"dateAndTime\":null,\"coverImage\":null}",
+        "contentDigest": "60f19d86897db212ed92cae587c2aadc",
+        "owner": "gatsby-source-graphcms"
+      }
+    },
+    "cjn401mye9zub0933ri77nua7": {
+      "id": "cjn401mye9zub0933ri77nua7",
+      "name": "Graham",
+      "avatar": null,
+      "parent": "GraphCMS_authors",
+      "children": [],
+      "internal": {
+        "type": "author",
+        "content": "{\"id\":\"cjn401mye9zub0933ri77nua7\",\"name\":\"Graham\",\"avatar\":null}",
+        "contentDigest": "3a19009b8c0faed3c7538881dab77569",
+        "owner": "gatsby-source-graphcms"
+      }
+    },
+    "cjn40635ma00n093361o4d7cn": {
+      "id": "cjn40635ma00n093361o4d7cn",
+      "name": "Me",
+      "avatar": null,
+      "parent": "GraphCMS_authors",
+      "children": [],
+      "internal": {
+        "type": "author",
+        "content": "{\"id\":\"cjn40635ma00n093361o4d7cn\",\"name\":\"Me\",\"avatar\":null}",
+        "contentDigest": "867d0a46e820c9fb2a762c765468c831",
+        "owner": "gatsby-source-graphcms"
+      }
+    },
+    "SitePage /post/1": {
+      "layout": "index",
+      "jsonName": "post-1.json",
+      "internalComponentName": "ComponentPost1",
+      "path": "/post/1",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "1"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/templates/post.js",
+      "id": "SitePage /post/1",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1f8201a3897792ab267474fc6fe8ea9e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /post/post2": {
+      "layout": "index",
+      "jsonName": "post-post-2.json",
+      "internalComponentName": "ComponentPostPost2",
+      "path": "/post/post2",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/templates/post.js",
+      "componentChunkName": "component---src-templates-post-js",
+      "context": {
+        "slug": "post2"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/templates/post.js",
+      "id": "SitePage /post/post2",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3dd2481288c72c70020884151a828a20",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "acd49a8996e37e076553cde12e136b36",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "049511ed3406a21347a42a6de8643533",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /admin/": {
+      "layout": "index",
+      "jsonName": "admin.json",
+      "internalComponentName": "ComponentAdmin",
+      "path": "/admin/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/admin.js",
+      "componentChunkName": "component---src-pages-admin-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/admin.js",
+      "id": "SitePage /admin/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4a7ff977485a6a77f9c80f8cdb6e1f86",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "322f1127f7629bcad2a653fb8ef7f666",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e773df2abdb6d5d8f46fa53a7ac3d28b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "dd2c6cbc7da1032b5f27fe77494ca03b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /services/": {
+      "layout": "index",
+      "jsonName": "services.json",
+      "internalComponentName": "ComponentServices",
+      "path": "/services/",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/services.js",
+      "componentChunkName": "component---src-pages-services-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/services.js",
+      "id": "SitePage /services/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "610c37e066de8b2e748de3715ae93911",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/graham/GitHub/gatsby-starter-procyon/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "90ba6812cb851e84556dd1ac1e5f9d0a",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "cf0ccb7d26770304e621dd44e965547f"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}
